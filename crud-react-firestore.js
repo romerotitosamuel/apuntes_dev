@@ -10,4 +10,8 @@ https://bertofern.wordpress.com/2019/01/08/solucion-node-js-npm-no-reconocido-co
               <i class="material-icons">add</i> //add is de name icon
 27:43 Create a button and begin to programming functions
 
-//QUEDE EN EL MINUTO 27:43
+36:53 Change LinkForm into Links
+38:44 Send data to firebase
+40:50 import db 
+
+//QUEDE EN EL MINUTO 40:50
