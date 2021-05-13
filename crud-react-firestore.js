@@ -13,5 +13,6 @@ https://bertofern.wordpress.com/2019/01/08/solucion-node-js-npm-no-reconocido-co
 36:53 Change LinkForm into Links
 38:44 Send data to firebase
 40:50 import db 
-
-//QUEDE EN EL MINUTO 40:50
+46:05 Do the UseEffect for show data in load page
+51:00 Create second useState
+//Me quede en 51:00
