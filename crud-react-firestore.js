@@ -15,4 +15,14 @@ https://bertofern.wordpress.com/2019/01/08/solucion-node-js-npm-no-reconocido-co
 40:50 import db 
 46:05 Do the UseEffect for show data in load page
 51:00 Create second useState
+57:40 How to DELETE a data
+1:03:05 Teach to do a Notification when url is deleted
+1:07:32 Teach how to EDIT a URL
+
+
+
 //Me quede en 51:00
+
+
+
+db.collection('links').onSnapshot( (querySnapshot) => { querySnapshot.forEach((doc) => { console.log(doc.data()) } )})
