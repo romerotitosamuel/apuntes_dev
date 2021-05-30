@@ -13,6 +13,7 @@ https://bertofern.wordpress.com/2019/01/08/solucion-node-js-npm-no-reconocido-co
 36:53 Change LinkForm into Links
 38:44 Send data to firebase
 40:50 import db 
+43:53 Clear the form and show a notification
 46:05 Do the UseEffect for show data in load page
 51:00 Create second useState
 57:40 How to DELETE a data
