@@ -22,14 +22,20 @@ self.addEventListener('activate', event => {
     console.log('SW2: Activo y listo para usar la App')
 })
 
-// FETCH: Manejo de peticiones HTTP
-self.addEventListener('fetch', event => {
-
-  
-
-
-
+// SYNC: Recupaeramos la conexión a internet
+self.addEventListener('sync', event => {
+    console.log('tenemos conexión!')
+    console.log(event)
+    console.log(event.tag)
 })
+
+// PUSH: Manejar las push notifications
+self.addEventListener('push', event => {
+    console.log('notificación recibida')
+})
+
+
+
 
 
 
