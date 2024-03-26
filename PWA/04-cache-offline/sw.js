@@ -1,6 +1,6 @@
 
 self.addEventListener('fetch', event => {
-
+/*
     const offlineResp = new Response(`
     
         <!DOCTYPE html>
@@ -22,7 +22,9 @@ self.addEventListener('fetch', event => {
         }
 
     })
+*/
 
+    const offlineResp = fetch('pages/offline.html')
 
     const resp = fetch(event.request)
         .catch(() => offlineResp)
